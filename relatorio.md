@@ -25,5 +25,5 @@ Sim. A Lista de Adjacência começa sendo a mais rápida nas densidades 0.001 e 
 
 **O que vocês mediram concorda com o custo composto para `contar_triangulos`?**
 Sim, os resultados concordam perfeitamente com a teoria. 
-* No quesito **espaço**, a matriz manteve-se fixa em $4.000.000$ posições ($n^2$), enquanto a lista cresceu proporcionalmente às arestas ($\Theta(n + 2m)$), saltando de 5.820 para quase 2 milhões de posições, mas sempre economizando espaço em relação à matriz.
+* No quesito **espaço**, a matriz manteve-se fixa em $4.000.000$ posições ($n^2$), enquanto a lista cresceu proporcionalmente às arestas $\Theta(n + 2m)$, saltando de 5.820 para quase 2 milhões de posições, mas sempre economizando espaço em relação à matriz.
 * No quesito **tempo**, a limitação da lista para descobrir rapidamente se "u é vizinho de w" em listas grandes gerou o gargalo esperado para grafos densos, comprovando o peso da complexidade teórica composta.
